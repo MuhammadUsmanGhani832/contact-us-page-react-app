@@ -21,4 +21,19 @@
 .links li{
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease;
+}.links li:hover{
+  color: #FD5A5E;
+}
+
+
+.navberImage{
+  width:300pxpx;
+  height: 50px;
+}
+
+.navberImage img{
+  width: 100%;
+  height: 100%;
 }

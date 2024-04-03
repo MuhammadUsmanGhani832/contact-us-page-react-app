@@ -49,6 +49,13 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
+transition: 0.5s ease;
+}
+.supportChat > div > button:hover{
+background-color: transparent;
+border: 2px solid #FD5A5E;
+color: #FD5A5E;
 }
 .supportChat > button {
   height: 44px;
@@ -60,6 +67,11 @@
   border: 1px solid black;
   outline: none;
   border-radius: 5px;
+  cursor: pointer;
+transition: 0.5s ease;
+}
+.supportChat > button:hover{
+  background-color: #E5AC29;
 }
 .Form > form {
   margin-top: 23px;
@@ -106,8 +118,14 @@
   border: none;
   outline: none;
   border-radius: 5px;
-
+cursor: pointer;
   align-self: flex-end;
+  transition: 0.5s ease;
+}
+.Form>form>button:hover{
+  background-color: transparent;
+border: 2px solid #FD5A5E;
+color: #FD5A5E;
 }
 
 .contactImage {
